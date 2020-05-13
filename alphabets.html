@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container h-75 bg-warning justify-content-center align-items-center d-flex">
+        <div class="row  bg-dark justify-content-center align-items-center ">
+            <div class="col-12 align-items-center justify-content-center">
+                <img src="src/bg-01.jpg" alt="background" width="300em" class="p-2 mx-auto my-auto">
+                <div >
+                    <audio class="embed-responsive" id="player">
+                        <source src="sample.mp3">
+                        
+                    </audio>
+                    <button  class="btn btn-success " onclick="document.getElementById('player').play()">play</button>
+                    <button class="btn btn-success" onclick="document.getElementById('player').pause()">pause</button>
+                </div>
+                <p class="my-auto p-2 text-center h1">(Tamil content)</p>
+                <p class="my-auto p-2 text-center">(Tamil pronunciation)</p>
+                <p class="my-auto p-2 text-center h3">(English content)</p>
+            </div>
+        </div>
+    </div>
+            <div class="container d-flex justify-content-center align-items-center>
+                <div class="col-12">
+                    <button>Next</button>
+    
+                    <button>Previous</button>
+                </div>
+            </div>
+</body>
+</html>
